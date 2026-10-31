@@ -210,6 +210,14 @@
       font-size: .95rem;
     }
 
+    .site-credit {
+      grid-column: 1 / -1;
+      justify-self: end;
+      margin-top: -22px;
+      color: rgba(255,255,255,.58);
+      font-size: .72rem;
+    }
+
     @media (max-width: 900px) {
       body {
         background-attachment: scroll;
@@ -232,6 +240,7 @@
       }
 
       .profile { max-width: none; }
+      .site-credit { margin-top: 0; }
       .avatar { width: 140px; height: 140px; margin: 13px 0 10px; }
       .eyebrow { margin-bottom: 7px; font-size: .68rem; }
       h1 { font-size: clamp(1.7rem, 8.8vw, 3.3rem); }
@@ -294,6 +303,7 @@
         </nav>
       </div>
     </section>
+    <footer class="site-credit">Designed &amp; built by Nanthaphop Phumkham · © 2026</footer>
   </main>
 </body>
 </html>
